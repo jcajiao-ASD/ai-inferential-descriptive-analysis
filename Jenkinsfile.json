@@ -1,0 +1,9 @@
+{
+  "DockerRepository": "ghcr.io",
+  "DockerImageName": "grupo-asd/NOMBRE-REPOSITORIO",
+  "DockerRepositoryCredential": "github_docker",
+  "pythonVersion": "3.13",
+  "pythonVersionDockerBuild": "3.12-slim",
+  "Environments": [
+  ]
+}
