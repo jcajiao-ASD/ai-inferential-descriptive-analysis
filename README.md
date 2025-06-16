@@ -223,4 +223,9 @@ Clean up the README.md and configure it based on your project's needs.
 
 ## Seventh step - Start developing
 
-Inside [docs](docs/_index.md) you will find extra information about `tools, architecture and more`. Remember to feed the `docs` folder with the `features` of your project for easy integration of new developers. `Good luck and Hello World` 
+Inside [docs](docs/_index.md) you will find extra information about `tools, architecture and more`. Remember to feed the `docs` folder with the `features` of your project for easy integration of new developers. `Good luck and Hello World` ç
+
+
+# Comando de intalación y configuración de Ollama para obtener el wheel de python
+
+CC=/usr/bin/gcc CXX=/usr/bin/g++ CMAKE_ARGS="-DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS" pip install --no-cache-dir --force-reinstall --upgrade "llama-cpp-python[server]"
