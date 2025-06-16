@@ -57,3 +57,7 @@ docker-volumes/
 
 # SonarQube
 .scannerwork
+
+# AI
+
+*.gguf
