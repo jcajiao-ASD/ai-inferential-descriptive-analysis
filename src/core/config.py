@@ -22,7 +22,6 @@ class Settings(BaseSettings):
         List of allowed HTTP methods for CORS.
     allow_headers : list[str]
         List of allowed headers for CORS.
-    poke_api_url : str
         The base URL for the Pokémon API.
 
     """
@@ -36,8 +35,6 @@ class Settings(BaseSettings):
     # LOGS
     logs_file_name: str = "app.log"
 
-    # POKE API
-    poke_api_url: str
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
