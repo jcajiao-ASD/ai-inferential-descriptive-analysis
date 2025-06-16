@@ -1,0 +1,59 @@
+# Minimal OS generated files
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*~
+
+# Virtual environment
+venv/
+.venv/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*.so # Compiled extension modules
+
+# Build Artifacts, Packaging and Distribution
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Pytest and coverage results
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+coverage.json
+*.cover
+cover/
+
+# Tool caches (Ruff, Mypy)
+.ruff_cache/
+.mypy_cache/
+
+# Common IDE files
+.vscode/
+.idea/
+*.bak # Common backup file pattern
+*.swp # Vim swap files
+
+# Temporary files and logs
+*.log
+logs/
+*.tmp
+*.temp
+
+# Environment variables
+.env*
+!.env.example
+
+# Docker specific ignores
+docker-compose.override.yml
+docker-volumes/
+.docker/ # Docker build cache, configs, etc.
+
+# SonarQube
+.scannerwork
